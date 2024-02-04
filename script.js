@@ -69,7 +69,7 @@ const REPORT_SECOND = 0; // The second of the minute to send the report
 
 // Define your drives here
 const DRIVES = [
-    { path: 'D:\\', alias: 'TV' }, // Each drive requires a path and an alias
+    { path: 'D:\\', alias: 'TV' }, // Each drive requires a path and an alias, for linux use mount point "/mnt/TV", "/mnt/Movies"
     { path: 'E:\\', alias: 'Movies' }
 	//{ path: '#:\\', alias: '######' }
     // Add more drives as needed
